@@ -1,4 +1,4 @@
-bash
+
 rm -f results.txt
 for f in $(seq -f "%04g" 1 1000); do
 echo "sf.txt $(cat f.txt)" >> results.txt
